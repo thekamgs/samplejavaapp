@@ -171,8 +171,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -248,7 +248,7 @@
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>3.2</version>
                         <configuration>
-                            <targetJdk>11</targetJdk>
+                            <targetJdk>1.8</targetJdk>
                             <aggregate>true</aggregate>
                             <format>xml</format>
                             <!-- CPD options -->
@@ -326,7 +326,7 @@
                                     <artifactId>maven-pmd-plugin</artifactId>
                                     <version>3.2</version>
                                     <configuration>
-                                        <targetJdk>11</targetJdk>
+                                        <targetJdk>1.8</targetJdk>
                                         <aggregate>true</aggregate>
                                         <format>xml</format>
                                         <rulesets>
@@ -440,7 +440,7 @@
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>2.5</version>
                         <configuration>
-                            <targetJdk>11</targetJdk>
+                            <targetJdk>1.8</targetJdk>
                             <aggregate>true</aggregate>
                             <format>xml</format>
                             <rulesets>
@@ -473,7 +473,7 @@
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>2.7</version>
                         <configuration>
-                            <source>11</source>
+                            <source>1.8</source>
                             <doclet>
                                 gr.spinellis.umlgraph.doclet.UmlGraphDoc
                             </doclet>
